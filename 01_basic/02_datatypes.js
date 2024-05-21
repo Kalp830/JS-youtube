@@ -9,3 +9,8 @@
 //object
 console.log(typeof undefined);
 console.log(typeof null);
+
+const x = 6;
+const y = 12;
+const z = x + y;
+console.log(z);
