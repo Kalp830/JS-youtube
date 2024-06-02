@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Expalin</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wensday</div>
+        <div class="day">Thrudsay</div>
+        <div class="day">Friday</div>
+    </div>
+    <script>
+       const parents = document.querySelector('.parent');
+    //     console.log(parents);
+    //     console.log(parents.children);
+    //     console.log(parents.children[1].innerHTML);
+
+        // for (let i = 0; i < parents.children.length; i++) {
+        //     console.log(parents.children[i].innerHTML);
+            
+        // }
+
+        parents.children[1].style.color = "orange";
+       // console.log(parents.firstElementChild);
+        //console.log(parents.lastElementChild);
+
+        const dayOne = document.querySelector('.day');
+        console.log(dayOne);
+        console.log(dayOne.parentElement);
+    </script>
+</body>
+</html> 
